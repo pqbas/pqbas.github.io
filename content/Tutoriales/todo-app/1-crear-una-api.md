@@ -1,5 +1,5 @@
 ---
-title: Crear una API desde cero
+title: 1. Crear una API desde cero
 tags:
   - backend
   - api
@@ -79,7 +79,7 @@ CRUD:
 
 Una decisión del contrato que conviene fijar en esta etapa son:
 
-- el `id`, el `created_at` y el `status` inicial los asigna el servidor y no el
+- El `id`, el `created_at` y el `status` inicial los asigna el servidor y no el
   cliente (si el cliente pudiera enviarlos, dos clientes podrían elegir el mismo
   `id`)
 

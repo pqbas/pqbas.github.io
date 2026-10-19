@@ -87,6 +87,6 @@ En Snowflake solo las _hybrid tables_ aceptan índices (ver
 
 ## 6. Dónde aparece
 
-- [[Backend/conectar-una-base-de-datos|Conectar una API a una base de datos]]
+- [[Tutoriales/todo-app/2-conectar-una-base-de-datos|Conectar una API a una base de datos]]
   crea un índice sobre `status` porque el listado de tareas filtra por esa
   columna.

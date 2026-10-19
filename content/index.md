@@ -27,15 +27,26 @@ enlazan entre sí con `[[wikilinks]]`.
 
 - [[Alembic/migraciones|Aplicar migraciones de base de datos con Alembic]]
 
-## Backend
+## System design
 
-- [[Backend/crear-una-api|Crear una API desde cero]]
-- [[Backend/conectar-una-base-de-datos|Conectar una API a una base de datos]]
+- [[System design/constantes-para-estimar|Constantes para estimar sistemas]]
 
-## Frontend
+## Tutoriales
 
-- [[Frontend/crear-un-frontend|Crear un frontend para una API]]
+### todo-app
+
+Una misma aplicación construida por partes, de la API a la pantalla.
+
+1. [[Tutoriales/todo-app/1-crear-una-api|Crear una API desde cero]]
+2. [[Tutoriales/todo-app/2-conectar-una-base-de-datos|Conectar una API a una base de datos]]
+3. [[Tutoriales/todo-app/3-crear-un-frontend|Crear un frontend desde cero]]
+4. [[Tutoriales/todo-app/4-conectar-un-frontend-a-una-api|Conectar un frontend a una API]]
+5. [[Tutoriales/todo-app/5-system-design|System design de la todo-app]]
 
 ## Linux
 
 - [[Linux/cambiar-la-hora|Cambiar la hora y la zona horaria en Linux]]
+
+## Entrevistas
+
+- [[Entrevistas/temas-a-revisar|Temas a revisar para entrevistas técnicas]]

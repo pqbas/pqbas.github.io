@@ -11,3 +11,7 @@ replit.nix
 .quartz/
 quartz/cli/tui/dist/
 .turbo/
+
+# libros, no se publican
+books/
+__pycache__/

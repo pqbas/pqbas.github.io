@@ -184,4 +184,4 @@ Si el preflight pasa y la subida igual falla, revisá en este orden:
 | Cabecera firmada que el navegador no manda igual (p. ej. `Content-Type`) | `403` con `SignatureDoesNotMatch` |
 | El rol que firma no tiene `s3:PutObject` | `403` desde el endpoint que genera la URL, no desde S3 |
 
-Relacionado: [[Backend/crear-una-api]]
+Relacionado: [[Tutoriales/todo-app/1-crear-una-api]]

@@ -1,5 +1,5 @@
 ---
-title: Conectar una API a una base de datos
+title: 2. Conectar una API a una base de datos
 tags:
   - backend
   - api
@@ -12,7 +12,7 @@ tags:
 ---
 
 La presente nota continúa el tutorial de
-[[Backend/crear-una-api|crear una API desde cero]] reemplazando el diccionario
+[[Tutoriales/todo-app/1-crear-una-api|crear una API desde cero]] reemplazando el diccionario
 en memoria por una base de datos SQLite, sin cambiar el contrato de los
 endpoints.
 
@@ -67,8 +67,8 @@ La `task` se modela como una tabla:
 
 Observaciones:
 
-- sqlite solo usa NULL, INTEGER, TEXT, REAL, BLOB
-- las fechas se guardan en formato TEXT en formato ISO
+- Sqlite solo usa NULL, INTEGER, TEXT, REAL, BLOB
+- Las fechas se guardan en formato TEXT en formato ISO
 - La tarea tiene propiedades que la definen y que solo caracterízan:
   - `nombre`, `id`, `status`, `crated_at` definen la tarea
   - `due_date`, `updated_at`, `description` caracterizan pero no definen
