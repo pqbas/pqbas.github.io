@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="350">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1e1e1e"/></marker></defs>
+<rect width="1380" height="350" fill="#ffffff"/>
+<text x="690.0" y="34.7" font-size="26" font-family="Segoe Print, Comic Sans MS, sans-serif" text-anchor="middle" fill="#1e1e1e" font-weight="bold" xml:space="preserve">El estado pasa a través de los nodos</text>
+<rect x="20" y="210" width="250" height="80" rx="12" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2"/>
+<text x="145.0" y="245.5" font-size="15" font-family="Menlo, Consolas, monospace" text-anchor="middle" fill="#1e1e1e" xml:space="preserve">graph.invoke(</text>
+<text x="145.0" y="264.25" font-size="15" font-family="Menlo, Consolas, monospace" text-anchor="middle" fill="#1e1e1e" xml:space="preserve"> {"messages": [Human]})</text>
+<ellipse cx="385.0" cy="250.0" rx="55.0" ry="28.0" fill="#e9ecef" stroke="#1e1e1e" stroke-width="2"/>
+<text x="385.0" y="255.85" font-size="18" font-family="Segoe Print, Comic Sans MS, sans-serif" text-anchor="middle" fill="#1e1e1e" font-weight="bold" xml:space="preserve">START</text>
+<rect x="590" y="205" width="200" height="90" rx="12" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="690.0" y="257.8" font-size="24" font-family="Segoe Print, Comic Sans MS, sans-serif" text-anchor="middle" fill="#1e1e1e" font-weight="bold" xml:space="preserve">agent</text>
+<ellipse cx="1005.0" cy="250.0" rx="55.0" ry="28.0" fill="#e9ecef" stroke="#1e1e1e" stroke-width="2"/>
+<text x="1005.0" y="255.85" font-size="18" font-family="Segoe Print, Comic Sans MS, sans-serif" text-anchor="middle" fill="#1e1e1e" font-weight="bold" xml:space="preserve">END</text>
+<rect x="1120" y="210" width="240" height="80" rx="12" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2"/>
+<text x="1240.0" y="245.5" font-size="15" font-family="Menlo, Consolas, monospace" text-anchor="middle" fill="#1e1e1e" xml:space="preserve">resultado =</text>
+<text x="1240.0" y="264.25" font-size="15" font-family="Menlo, Consolas, monospace" text-anchor="middle" fill="#1e1e1e" xml:space="preserve">{"messages": [Human, AI]}</text>
+<line x1="270" y1="250" x2="326" y2="250" stroke="#1e1e1e" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="440" y1="250" x2="586" y2="250" stroke="#1e1e1e" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="790" y1="250" x2="946" y2="250" stroke="#1e1e1e" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="1060" y1="250" x2="1116" y2="250" stroke="#1e1e1e" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="380" y="70" width="250" height="70" rx="12" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="505.0" y="100.5" font-size="15" font-family="Menlo, Consolas, monospace" text-anchor="middle" fill="#1e1e1e" xml:space="preserve">state =</text>
+<text x="505.0" y="119.25" font-size="15" font-family="Menlo, Consolas, monospace" text-anchor="middle" fill="#1e1e1e" xml:space="preserve">{"messages": [Human]}</text>
+<line x1="505" y1="140" x2="505" y2="244" stroke="#868e96" stroke-width="2.5" stroke-dasharray="6 6"/>
+<rect x="770" y="70" width="290" height="70" rx="12" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="915.0" y="100.5" font-size="15" font-family="Menlo, Consolas, monospace" text-anchor="middle" fill="#1e1e1e" xml:space="preserve">state =</text>
+<text x="915.0" y="119.25" font-size="15" font-family="Menlo, Consolas, monospace" text-anchor="middle" fill="#1e1e1e" xml:space="preserve">{"messages": [Human, AI]}</text>
+<line x1="870" y1="140" x2="870" y2="244" stroke="#868e96" stroke-width="2.5" stroke-dasharray="6 6"/>
+<text x="690.0" y="324.25" font-size="15" font-family="Menlo, Consolas, monospace" text-anchor="middle" fill="#1e1e1e" xml:space="preserve">devuelve solo lo nuevo:</text>
+<text x="690.0" y="343.0" font-size="15" font-family="Menlo, Consolas, monospace" text-anchor="middle" fill="#1e1e1e" xml:space="preserve">{"messages": [AI]}</text>
+<text x="870.0" y="284.25" font-size="15" font-family="Segoe Print, Comic Sans MS, sans-serif" text-anchor="middle" fill="#868e96" xml:space="preserve">LangGraph lo agrega</text>
+<text x="870.0" y="303.0" font-size="15" font-family="Segoe Print, Comic Sans MS, sans-serif" text-anchor="middle" fill="#868e96" xml:space="preserve">al final de la lista</text>
+</svg>

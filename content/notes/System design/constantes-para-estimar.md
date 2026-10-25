@@ -91,4 +91,4 @@ porque depende del producto. El número lo propone quien diseña, lo dice en voz
 alta como supuesto y sigue.
 
 Aplicadas a un caso concreto, en
-[[Tutoriales/todo-app/5-system-design|el system design de la todo-app]].
+[[System design/todo-app|el system design de la todo-app]].

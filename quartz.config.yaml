@@ -1,16 +1,29 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Notas
+  pageTitle: Percy Cubas
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics: null
   locale: es-ES
-  baseUrl: pqbas.github.io/notes
+  baseUrl: pqbas.github.io
   ignorePatterns:
     - private
     - templates
     - .obsidian
+    # Hidden for now, until these notes are polished. Only AI agents is published.
+    - notes/Alembic
+    - notes/AWS
+    - notes/Databases
+    - notes/Entrevistas
+    - notes/Hyprland
+    - notes/Linux
+    - notes/maths
+    - notes/Network
+    - notes/Snowflake
+    - notes/System design
+    - notes/Tutoriales/todo-app
+    - notes/my_system_design.excalidraw
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
@@ -19,25 +32,26 @@ configuration:
       body: Inter
       code: JetBrains Mono
     colors:
+      # Same dark palette as the portfolio in both modes.
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#0f0f0f"
+        lightgray: "#222222"
+        gray: "#5a5a5a"
+        darkgray: "#a8a8a8"
+        dark: "#ededed"
+        secondary: "#ededed"
+        tertiary: "#8a8a8a"
+        highlight: rgba(255, 255, 255, 0.04)
+        textHighlight: "#b3aa0288"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
+        light: "#0f0f0f"
+        lightgray: "#222222"
+        gray: "#5a5a5a"
+        darkgray: "#a8a8a8"
+        dark: "#ededed"
+        secondary: "#ededed"
+        tertiary: "#8a8a8a"
+        highlight: rgba(255, 255, 255, 0.04)
         textHighlight: "#b3aa0288"
 plugins:
   - source: "@quartz-community/created-modified-date"
@@ -53,7 +67,7 @@ plugins:
     enabled: true
     options:
       theme:
-        light: github-light
+        light: github-dark
         dark: github-dark
       keepBackground: false
     order: 20
@@ -135,17 +149,17 @@ plugins:
   - source: "@quartz-community/tag-page"
     enabled: true
   - source: "@quartz-community/explorer"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 50
   - source: "@quartz-community/graph"
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 10
   - source: "@quartz-community/search"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 20
@@ -153,7 +167,7 @@ plugins:
       groupOptions:
         grow: true
   - source: "@quartz-community/backlinks"
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 50
@@ -173,24 +187,26 @@ plugins:
       position: beforeBody
       priority: 30
   - source: "@quartz-community/page-title"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 10
   - source: "@quartz-community/darkmode"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 30
       group: toolbar
   - source: "@quartz-community/reader-mode"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 35
       group: toolbar
   - source: "@quartz-community/breadcrumbs"
     enabled: true
+    options:
+      rootName: Percy Cubas
     layout:
       position: beforeBody
       priority: 5
@@ -214,7 +230,7 @@ plugins:
   - source: "@quartz-community/recent-notes"
     enabled: false
   - source: "@quartz-community/spacer"
-    enabled: true
+    enabled: false
     options: {}
     order: 25
     layout:
@@ -234,7 +250,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5
