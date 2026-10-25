@@ -7,7 +7,8 @@
   max-width: min(94vw, 1400px);
 }
 
-.page > #quartz-body .sidebar.left {
+.page > #quartz-body .sidebar.left,
+.page > #quartz-body footer {
   display: none;
 }
 
@@ -20,6 +21,7 @@
   .page > #quartz-body .center {
     grid-column: 2;
     grid-row: 1 / span 3;
+    padding-bottom: 96px;
   }
 }
 
